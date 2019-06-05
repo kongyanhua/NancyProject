@@ -19,7 +19,6 @@ def read_excel(path,row_num):
     # # read a row slice
     # print(first_sheet.row_slice(rowx=0, start_colx=0, end_colx=2))
     return first_sheet.row_values(row_num)
-    print("Test")
 
 
 
